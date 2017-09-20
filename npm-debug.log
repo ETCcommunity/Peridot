@@ -1,0 +1,18 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'start', 'app.js' ]
+2 info using npm@1.4.9
+3 info using node@v8.4.0
+4 error Error: ENOENT: no such file or directory, open '/mnt/server/github/peridot/node_modules/app.js/package.json'
+5 error If you need help, you may report this *entire* log,
+5 error including the npm and node versions, at:
+5 error     <http://github.com/npm/npm/issues>
+6 error System Linux 4.4.0-31-generic
+7 error command "/usr/local/bin/node" "/usr/local/bin/npm" "start" "app.js"
+8 error cwd /mnt/server/github/peridot
+9 error node -v v8.4.0
+10 error npm -v 1.4.9
+11 error path /mnt/server/github/peridot/node_modules/app.js/package.json
+12 error syscall open
+13 error code ENOENT
+14 error errno -2
+15 verbose exit [ -2, true ]
