@@ -1,0 +1,7 @@
+{
+	"gethHost": "localhost",
+    "gethPort": 8584,
+    "quiet": false,
+    "terminateAtExistingDB": false,
+    "listenOnly": true
+}
