@@ -1,6 +1,6 @@
 # Peridot: A lightweight IoT gateway management solution for the Ethereum Classic Blockchain
 
-#WIP Alpha stage
+# WIP Alpha stage: many features are not working
 
 This manager is intended to be an interface for managing IoT devices that use smart contracts on the ethereum classic chain for compute functions. 
 
