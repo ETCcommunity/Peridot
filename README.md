@@ -4,6 +4,8 @@
 
 This manager is intended to be an interface for managing IoT devices that use smart contracts on the ethereum classic chain for compute functions. 
 
+![How it Works](https://github.com/ethereumproject/Peridot/blob/master/public/img/peridot_demo.png)
+
 After installing Peridot, a user should be able to:
 
 - add, manage, and delete IoT devices
@@ -29,7 +31,7 @@ The user interface is designed to be intentionally minimlistic.
  - modules: indivdual device files
  - contracts: example smart contracts
 
-
+![Ethereum Iot](https://github.com/ethereumproject/Peridot/blob/master/public/img/Iotblocks2.png)
 
 
 ## Local installation
