@@ -1,4 +1,35 @@
-# Peridot: Ethereum Classic IoT manager 
+# Peridot: A lightweight IoT gateway management solution for the Ethereum Classic Blockchain
+
+#WIP Alpha stage
+
+This manager is intended to be an interface for managing IoT devices that use smart contracts on the ethereum classic chain for compute functions. 
+
+After installing Peridot, a user should be able to:
+
+- add, manage, and delete IoT devices
+- see events and sensors locally
+- triger events locally for testing
+- read local ETC accounts and balances
+- read contract data
+
+The user interface is designed to be intentionally minimlistic.
+
+## Project structure
+
+- Views: ejs pages
+- Tools: Configuration files
+- Public:
+
+ - css: stylesheets
+ - img: image locations
+ - js: custom scripts
+ - plugins: libraries
+ - tpl: standard page templates
+ - views: indivdual pages
+ - modules: indivdual device files
+ - contracts: example smart contracts
+
+
 
 
 ## Local installation
@@ -19,7 +50,6 @@ MacOS: `brew install mongodb`
 
 Ubuntu: `sudo apt-get install -y mongodb-org`
 
-## Populate the DB
 
 ### Run:
 
