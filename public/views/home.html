@@ -1,0 +1,52 @@
+<div class="row">
+    <div class="col-md-12 col-sm-12">
+        <!-- BEGIN PORTLET-->
+        <div class="portlet light">
+            <div class="portlet-title">
+                <div class="caption caption-md">
+                    <i class="fa fa-cubes font-red"></i>
+                    <span class="caption-subject font-red bold uppercase">Devices</span>
+                </div>
+                <div class="actions">
+                    <div class="btn-group">
+                        <a class="btn btn-med" ng-click="reloadDevices()"><i class="fa fa-refresh" ng-class="{'fa-spin': blockLoading}"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="portlet-body">
+                <div class="todo-tasklist scrollable">
+                    <div ng-repeat="t in latestDevice track by $index" class="todo-tasklist-item item-border-green row" ng-class="">
+                        <!--TODO: color by known miners -->
+                        <div class="col-sm-3">
+                            <span class="todo-tasklist-item-title"><i class="fa fa-cube"></i> <a href="/device/{{t.deviceID}}">{{t.deviceID}}</a></span><br>
+                            <span class="todo-tasklist-date">
+                                <i class="fa fa-hourglass-o"></i>{{t.deviceID}}</span>
+                        </div>
+                        <div class="todo-tasklist-controls col-sm-7">
+                            <div class="todo-tasklist-item-text"><a href="/addr/{{t.miner}}">{{t.extraData}}</a><br>
+                              <a href="/device/{{t.ConnectionState}}">{{t.ConnectionState}}</a><br>
+                            </div>
+                        </div>
+                        <div class="todo-tasklist-controls col-sm-7">
+                            <div class="todo-tasklist-item-text"><a href="/addr/{{t.miner}}">{{t.extraData}}</a><br>
+                            by <a href="/addr/{{t.miner}}">{{t.miner}}</a><br>
+                            {{t.transactions.length}} txns
+                            </div>
+                        </div>
+                        <div class="todo-tasklist-controls col-sm-7">
+                            <div class="todo-tasklist-item-text"><a href="/addr/{{t.miner}}">{{t.extraData}}</a><br>
+                            by <a href="/addr/{{t.miner}}">{{t.miner}}</a><br>
+                            {{t.transactions.length}} txns
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- END PORTLET-->
+    </div>
+
+    </div>
+</div>
